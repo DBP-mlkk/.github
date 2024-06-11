@@ -10,15 +10,15 @@
 글로벌 시장의 빠른 변화와 개방은 중소기업에게 다양한 수출 기회를 제공하고 있으나, 이를 적극적으로 활용하기 위해서는 충분한 정보와 지원이 필수적임. 또한 중소기업이 해외 시장에 효과적으로 진출하기 위해서는 시장 분석, 마케팅 전략, 법률적 지원 등 다방면에서의 지원이 필요함. 이에 우리는 현재 시행 중인 중소기업 지원 사업의 내용을 면밀히 분석하고, 2017년부터 2019년까지 실행된 지원 사업의 결과를 바탕으로 향후 실행 결과를 예측하여 보완할 점을 찾아내고 개선된 정책을 제안함. 이를 통해 중소기업이 해외 시장의 빠른 변화와 확장에 효과적으로 대응할 수 있도록 지원하고자 함. 따라서 중소기업의 글로벌 경쟁력을 강화하고, 국가 경제의 성장에 기여하는 것을 목표함.
 
 ### 🍧분석·활용의 배경 및 목적
-1️⃣ 
+1️⃣ 글로벌 시장의 빠른 변화와 개방은 중소기업에게 다양한 수출 기회를 제공하고 있으나, 이를 적극적으로 활용하기 위해서는 충분한 정보와 지원이 필수적임
 
-2️⃣
+2️⃣ 중소기업이 해외 시장에 효과적으로 진출하기 위해서는 시장 분석, 마케팅 전략, 법률적 지원 등 다방면에서의 지원이 필요함
 
-3️⃣ 
+3️⃣ 이에 현재 시행 중인 중소기업 지원 사업의 내용을 면밀히 분석하고, 2017년부터 2019년까지 실행된 지원 사업의 결과를 바탕으로 향후 실행 결과를 예측하여 보완할 점을 찾아내고 개선된 정책을 제안함
 
-4️⃣
+4️⃣ 이를 통해 중소기업이 해외 시장의 빠른 변화와 확장에 효과적으로 대응할 수 있도록 지원하고자 함
 
-5️⃣ 
+5️⃣ 따라서 중소기업의 글로벌 경쟁력을 강화하고, 국가 경제의 성장에 기여하는 것을 목표함
 
 ### 🍧기대효과
 1️⃣ 중소기업의 역량 강화로 경쟁력을 확보하여 변화하는 시장 환경에서 기술 발전, 소비자 트렌드변화 경쟁심화를 더 빠르게 이해 할 수 있음
@@ -26,10 +26,6 @@
 2️⃣ 차별화된 강점으로 세계시장에서 경쟁우위 확보가 되고 지속가능한 성장 동력을 확보할 수 있음
 
 3️⃣ 중소기업들이 역량 강화를 위한 자료를 찾을 때 드는 수고와 비용이 줄어들음
-
-4️⃣
-
-5️⃣ 
 
 ### 🍧활용 데이터 정보
 관세청 공공데이터
@@ -91,6 +87,50 @@ Production
 └─ subpage.js
 ```
 ▲Front-End
+
+```
+📦 
+.gitignore
+README.md
+build.gradle
+gradle
+│  └─ wrapper
+│     ├─ gradle-wrapper.jar
+│     └─ gradle-wrapper.properties
+├─ gradlew
+├─ gradlew.bat
+├─ settings.gradle
+└─ src
+   ├─ main
+   │  ├─ java
+   │  │  └─ com
+   │  │     └─ example
+   │  │        └─ dbpmkk
+   │  │           ├─ Controller
+   │  │           │  ├─ MemberController.java
+   │  │           │  ├─ MemberForm.java
+   │  │           │  └─ PolicyController.java
+   │  │           ├─ DbpMkkApplication.java
+   │  │           ├─ Domain
+   │  │           │  ├─ Member.java
+   │  │           │  └─ PolicyEntity.java
+   │  │           ├─ Repository
+   │  │           │  ├─ MemberRepository.java
+   │  │           │  ├─ MemoryMemberRepository.java
+   │  │           │  └─ PolicyEntityRepository.java
+   │  │           └─ Service
+   │  │              ├─ MemberService.java
+   │  │              └─ PolicyService.java
+   │  └─ resources
+   │     └─ application.properties
+   └─ test
+      └─ java
+         └─ com
+            └─ example
+               └─ dbpmkk
+                  └─ DbpMkkApplicationTests.java
+```
+▲Back-End
 
 ### 🍧ERD
 ![KakaoTalk_20240610_214118961](https://github.com/DBP-mlkk/.github/assets/123048828/2b997d06-5e54-4279-9f53-2a80d611357e)
