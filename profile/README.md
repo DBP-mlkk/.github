@@ -49,13 +49,24 @@ Data-Analysis
 Production
 - Discord
 
+### 🍔Repo소개
+front : front-end용 Repo
+back  : back-end용 Repo
+data_analysis : 데이터분석용 Repo
+
 ### 🍔구조
 ```
 📦 
-├─ -front
-├─ .DS_Store
-├─ README.md
-├─ SignUp.css
+-front
+.DS_Store
+.idea
+│  ├─ .gitignore
+│  ├─ front.iml
+│  ├─ misc.xml
+│  ├─ modules.xml
+│  └─ vcs.xml
+README.md
+SignUp.css
 ├─ SignUp.html
 ├─ images
 │  ├─ DBP 로고.jpg
@@ -80,10 +91,10 @@ Production
 
 ```
 📦 
-.gitignore
-README.md
-build.gradle
-gradle
+├─ .gitignore
+├─ README.md
+├─ build.gradle
+├─ gradle
 │  └─ wrapper
 │     ├─ gradle-wrapper.jar
 │     └─ gradle-wrapper.properties
@@ -93,26 +104,44 @@ gradle
 └─ src
    ├─ main
    │  ├─ java
-   │  │  └─ com
-   │  │     └─ example
-   │  │        └─ dbpmkk
-   │  │           ├─ Controller
-   │  │           │  ├─ MemberController.java
-   │  │           │  ├─ MemberForm.java
-   │  │           │  └─ PolicyController.java
-   │  │           ├─ DbpMkkApplication.java
-   │  │           ├─ Domain
-   │  │           │  ├─ Member.java
-   │  │           │  └─ PolicyEntity.java
-   │  │           ├─ Repository
-   │  │           │  ├─ MemberRepository.java
-   │  │           │  ├─ MemoryMemberRepository.java
-   │  │           │  └─ PolicyEntityRepository.java
-   │  │           └─ Service
-   │  │              ├─ MemberService.java
-   │  │              └─ PolicyService.java
+   │  │  ├─ com
+   │  │  │  └─ example
+   │  │  │     └─ dbpmkk
+   │  │  │        ├─ Controller
+   │  │  │        │  ├─ educate
+   │  │  │        │  │  └─ EducateController.java
+   │  │  │        │  ├─ member
+   │  │  │        │  │  └─ MemberController.java
+   │  │  │        │  └─ policy
+   │  │  │        │     └─ PolicyController.java
+   │  │  │        ├─ DTO
+   │  │  │        │  └─ MemberDTO.java
+   │  │  │        ├─ DbpMkkApplication.java
+   │  │  │        ├─ Domain
+   │  │  │        │  ├─ educate
+   │  │  │        │  │  └─ EducateEntity.java
+   │  │  │        │  ├─ member
+   │  │  │        │  │  └─ MemberEntity.java
+   │  │  │        │  └─ policy
+   │  │  │        │     └─ PolicyEntity.java
+   │  │  │        ├─ Repository
+   │  │  │        │  ├─ educate
+   │  │  │        │  │  └─ EducateEntityRepository.java
+   │  │  │        │  ├─ member
+   │  │  │        │  │  └─ MemberRepository.java
+   │  │  │        │  └─ policy
+   │  │  │        │     └─ PolicyEntityRepository.java
+   │  │  │        └─ Service
+   │  │  │           ├─ educate
+   │  │  │           │  └─ EducateService.java
+   │  │  │           ├─ member
+   │  │  │           │  └─ MemberService.java
+   │  │  │           └─ policy
+   │  │  │              └─ PolicyService.java
+   │  │  └─ sql
+   │  │     └─ txt
    │  └─ resources
-   │     └─ application.properties
+   │     └── application.properties
    └─ test
       └─ java
          └─ com
