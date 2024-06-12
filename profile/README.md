@@ -50,9 +50,9 @@ Production
 - Discord
 
 ### 🍔Repo소개
-front : front-end용 Repo
-back  : back-end용 Repo
-data_analysis : 데이터분석용 Repo
+- front : front-end용 Repo
+- back  : back-end용 Repo
+- data_analysis : 데이터분석용 Repo
 
 ### 🍔구조
 ```
