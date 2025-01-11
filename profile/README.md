@@ -2,7 +2,7 @@
 
 ### 🏆수상 내역
 
-2024년 관세청 공공데이터 활용·분석 경진대회 🥉장려상
+<div align="center">2024년 관세청 공공데이터 활용·분석 경진대회 🥉장려상</div>
 
 <p align="center"><img src="https://github.com/user-attachments/assets/d50bcfcb-e287-4425-84df-606d96b722a1" width="300" height="400"/></p>
 
