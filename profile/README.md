@@ -1,10 +1,10 @@
 # 관세청 공공데이터 활용･분석
 
-### 수상 내역
+### 🏆수상 내역
 
 2024년 관세청 공공데이터 활용·분석 경진대회 🥉장려상
 
-<img src="https://github.com/user-attachments/assets/d50bcfcb-e287-4425-84df-606d96b722a1" width="300" height="400"/>
+<p align="center"><img src="https://github.com/user-attachments/assets/d50bcfcb-e287-4425-84df-606d96b722a1" width="300" height="400"/></p>
 
 ![KakaoTalk_20240604_170937622-horz](https://github.com/DBP-mlkk/back/assets/123048828/77d99a81-de89-4d98-a43d-a6afe4bd7804)
 ▲메인페이지ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ▲검색페이지
